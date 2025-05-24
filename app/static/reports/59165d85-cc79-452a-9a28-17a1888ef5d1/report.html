@@ -1,0 +1,58 @@
+
+        <script>
+
+const viewerScript = document.createElement('script');
+viewerScript.src = '/static/clash-viewer.js';
+document.head.appendChild(viewerScript);
+</script>
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Rapport de détection de clash</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .summary { background-color: #e7f3fe; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+                .section { margin-bottom: 30px; }
+                h1, h2 { color: #333; }
+            </style>
+        </head>
+        <body>
+            <h1>Rapport de détection de clash</h1>
+            
+            <div class="summary">
+                <h2>Résumé</h2>
+                <p>Session ID: 59165d85-cc79-452a-9a28-17a1888ef5d1</p>
+                <p>Nombre total de clashs: 0</p>
+            </div>
+            
+            <div class="section">
+                <h2>Clashs par type d'élément</h2>
+                <table>
+                    <tr>
+                        <th>Types d'éléments</th>
+                        <th>Nombre de clashs</th>
+                    </tr>
+        
+                </table>
+            </div>
+            
+            <div class="section">
+                <h2>Liste des clashs</h2>
+                <table>
+                    <tr>
+                        <th>ID</th>
+                        <th>Élément A</th>
+                        <th>Élément B</th>
+                        <th>Distance</th>
+                        <th>Volume de chevauchement</th>
+                    </tr>
+        
+                </table>
+            </div>
+        </body>
+        </html>
+        

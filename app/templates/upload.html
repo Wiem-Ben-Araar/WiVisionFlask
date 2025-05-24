@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Télécharger des fichiers IFC - IFC Clash Detection</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="{{ url_for('main.index') }}">IFC Clash Detection</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('main.index') }}">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="{{ url_for('main.upload') }}">Télécharger des fichiers</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="mb-4">Télécharger des fichiers IFC pour la détection de clash</h1>
+        
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    {{ message }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Instructions</h5>
+                <p class="card-text">
+                    Téléchargez deux fichiers IFC pour détecter les clashes entre eux. 
+                    Vous pouvez ajuster la tolérance de détection selon vos besoins.
+                </p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-body">
+                <form action="{{ url_for('main.upload') }}" method="post" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label for="file1" class="form-label">Premier fichier IFC</label>
+                        <input type="file" class="form-control" id="file1" name="file1" accept=".ifc" required>
+                        <div class="form-text">Sélectionnez le premier fichier IFC pour la comparaison</div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="file2" class="form-label">Deuxième fichier IFC</label>
+                        <input type="file" class="form-control" id="file2" name="file2" accept=".ifc" required>
+                        <div class="form-text">Sélectionnez le deuxième fichier IFC pour la comparaison</div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="tolerance" class="form-label">Tolérance de clash (mètres)</label>
+                        <input type="number" class="form-control" id="tolerance" name="tolerance" 
+                               value="0.01" min="0.001" max="1" step="0.001">
+                        <div class="form-text">
+                            Entrez la tolérance de détection (en mètres). 
+                            Une valeur plus petite détecte des clashes plus précis.
+                        </div>
+                    </div>
+                    
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary">Lancer la détection de clash</button>
+                        <a href="{{ url_for('main.index') }}" class="btn btn-secondary">Annuler</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title">Utilisation de l'API</h5>
+                <p class="card-text">
+                    Vous pouvez également utiliser l'API pour réaliser une détection de clash 
+                    via Postman ou toute autre application cliente HTTP.
+                </p>
+                
+                <h6>Endpoints disponibles:</h6>
+                <ul>
+                    <li>
+                        <strong>POST /api/upload</strong> - Télécharger des fichiers IFC et lancer la détection
+                        <pre>
+Content-Type: multipart/form-data
+Paramètres:
+- file1: Premier fichier IFC (obligatoire)
+- file2: Deuxième fichier IFC (obligatoire)
+- tolerance: Tolérance en mètres (optionnel, défaut: 0.01)
+                        </pre>
+                    </li>
+                    <li>
+                        <strong>GET /api/report/{session_id}</strong> - Récupérer les résultats de détection de clash
+                        <pre>
+Paramètres:
+- session_id: L'identifiant de session retourné par l'endpoint de téléchargement
+                        </pre>
+                    </li>
+                </ul>
+                
+                <h6>Exemple d'utilisation avec Postman:</h6>
+                <ol>
+                    <li>Créez une requête POST vers: <code>http://localhost:5000/api/upload</code></li>
+                    <li>Sous l'onglet "Body", sélectionnez "form-data"</li>
+                    <li>Ajoutez deux champs de type "File" nommés "file1" et "file2" et sélectionnez vos fichiers IFC</li>
+                    <li>Ajoutez un champ "tolerance" (optionnel) avec une valeur numérique</li>
+                    <li>Envoyez la requête et récupérez l'ID de session dans la réponse</li>
+                    <li>Utilisez cet ID pour accéder au rapport: <code>http://localhost:5000/api/report/{session_id}</code></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">IFC Clash Detection &copy; 2025</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
