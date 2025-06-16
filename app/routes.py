@@ -382,27 +382,86 @@ def detection_history():
 @main.route('/api/clash/detect_intra', methods=['POST', 'OPTIONS'])
 @cross_origin()
 def intra_clash_detect():
+    # Handle OPTIONS request for CORS preflight
+    if request.method == 'OPTIONS':
+        return jsonify({"status": "ok"}), 200
+    
+    # Debug: Print all request data
+    print("=== DEBUG REQUEST INFO ===")
+    print(f"Request method: {request.method}")
+    print(f"Request files: {list(request.files.keys())}")
+    print(f"Request form: {dict(request.form)}")
+    print(f"Content-Type: {request.content_type}")
+    print("========================")
+    
+    # Check if file is present
     if 'model' not in request.files:
-        return jsonify(error="No IFC file provided"), 400
+        print("ERROR: 'model' key not found in request.files")
+        print(f"Available keys: {list(request.files.keys())}")
+        return jsonify(error="No IFC file provided - expected 'model' field"), 400
 
     model_file = request.files['model']
-    if model_file.filename == '':
-        return jsonify(error="Invalid IFC file"), 400
+    
+    # More detailed file validation
+    if not model_file:
+        print("ERROR: model_file is None or empty")
+        return jsonify(error="Invalid file object"), 400
+        
+    if model_file.filename == '' or model_file.filename is None:
+        print(f"ERROR: Invalid filename: '{model_file.filename}'")
+        return jsonify(error="Invalid filename - file must have a name"), 400
+    
+    # Check file extension
+    if not model_file.filename.lower().endswith('.ifc'):
+        print(f"ERROR: Invalid file extension for: {model_file.filename}")
+        return jsonify(error="File must be an IFC file (.ifc extension)"), 400
+    
+    print(f"File received: {model_file.filename}, size: {model_file.content_length}")
 
-    tolerance = float(request.form.get('tolerance', 0.01))
+    try:
+        tolerance = float(request.form.get('tolerance', 0.01))
+    except (ValueError, TypeError):
+        print(f"ERROR: Invalid tolerance value: {request.form.get('tolerance')}")
+        return jsonify(error="Invalid tolerance value - must be a number"), 400
+    
     use_ai = request.form.get('use_ai', 'true').lower() == 'true'
     session_id = str(uuid.uuid4())
+    
+    print(f"Parameters: tolerance={tolerance}, use_ai={use_ai}, session_id={session_id}")
 
     try:
         upload_folder = current_app.config['UPLOAD_FOLDER']
         os.makedirs(upload_folder, exist_ok=True)
 
         filename = secure_filename(model_file.filename)
+        if not filename:  # secure_filename might return empty string
+            filename = f"model_{session_id}.ifc"
+            
         session_folder = os.path.join(upload_folder, session_id)
         os.makedirs(session_folder, exist_ok=True)
         file_path = os.path.join(session_folder, filename)
+        
+        # Save the file
         model_file.save(file_path)
-        print(f"Saved file: {file_path}")
+        
+        # Verify file was saved and has content
+        if not os.path.exists(file_path):
+            raise Exception("File was not saved successfully")
+            
+        file_size = os.path.getsize(file_path)
+        if file_size == 0:
+            raise Exception("Saved file is empty")
+            
+        print(f"File saved successfully: {file_path} ({file_size} bytes)")
+
+        # Test if it's a valid IFC file by trying to open it
+        try:
+            import ifcopenshell
+            test_model = ifcopenshell.open(file_path)
+            print(f"IFC file validation successful: {len(test_model.by_type('IfcElement'))} elements found")
+        except Exception as ifc_error:
+            print(f"ERROR: Invalid IFC file: {str(ifc_error)}")
+            return jsonify(error=f"Invalid IFC file: {str(ifc_error)}"), 400
 
         # Démarrer le traitement en arrière-plan
         executor.submit(
@@ -417,12 +476,19 @@ def intra_clash_detect():
         return jsonify({
             "session_id": session_id,
             "status": "processing",
-            "status_url": f"/api/status/{session_id}"
+            "status_url": f"/api/status/{session_id}",
+            "file_info": {
+                "filename": filename,
+                "size": file_size
+            }
         })
 
     except Exception as e:
-        print(f"Error: {str(e)}")
+        import traceback
+        error_msg = f"Error: {str(e)}\n{traceback.format_exc()}"
+        print(error_msg)
         return jsonify(error=str(e)), 500
+
 
 def process_intra_clash_detection(app, session_id, path, tolerance, use_ai):
     """Fonction exécutée en arrière-plan pour la détection intra-modèle"""
