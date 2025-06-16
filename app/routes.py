@@ -473,13 +473,16 @@ def generate_html_report(session_id, clashes, visualizations, app, intra_model=F
 
 
 @main.route('/api/status/<session_id>')
-@cross_origin()  # Ajouter CORS ici aussi
+@cross_origin()
 def check_status(session_id):
     """Endpoint de vérification du statut"""
     report_dir = os.path.join(current_app.config['REPORTS_FOLDER'], session_id)
     
     if not os.path.exists(report_dir):
-        return jsonify({"status": "processing"}), 200
+        return jsonify({
+            "status": "processing",
+            "message": "L'analyse est en cours..."
+        }), 200
         
     if os.path.exists(os.path.join(report_dir, 'report.json')):
         with open(os.path.join(report_dir, 'report.json')) as f:
@@ -494,7 +497,6 @@ def check_status(session_id):
         "status": "processing",
         "message": "L'analyse est en cours..."
     })
-
 @main.route('/api/report/<session_id>')
 @cross_origin()  # Ajouter CORS ici aussi
 def get_report(session_id):
@@ -662,28 +664,23 @@ def process_intra_clash_detection(app, session_id, path, tolerance, use_ai):
             clashes = detector.detect_intra_model_clashes(model_info)
             print(f"Clashs intra-modèle détectés: {len(clashes)}")
             
-            # Générer des données pour les visualisations 3D
-            clash_visualizations = generate_intra_clash_visualizations(clashes, path, detector)
-            
+            # Créer le dossier de rapport avant d'écrire
             report_dir = os.path.join(current_app.config['REPORTS_FOLDER'], session_id)
             os.makedirs(report_dir, exist_ok=True)
-            report_path = os.path.join(report_dir, 'report.json')
             
+            # Sauvegarder le rapport JSON
+            report_path = os.path.join(report_dir, 'report.json')
             with open(report_path, 'w') as f:
                 json.dump({
                     'session_id': session_id,
                     'status': 'completed',
                     'clash_count': len(clashes),
                     'clashes': clashes,
-                    'visualizations': clash_visualizations,
                     'model_name': model_info['model_name'],
                     'element_count': len(model_info['elements']),
                     'clashing_element_count': len(set(c['element_a']['guid'] for c in clashes) | set(c['element_b']['guid'] for c in clashes)),
                     'ai_used': use_ai
                 }, f, indent=2)
-            
-            # Générer un rapport HTML
-            generate_html_report(session_id, clashes, clash_visualizations, app, intra_model=True, model_name=model_info['model_name'])
             
             print(f"Rapport sauvegardé: {report_path}")
             print(f"=== Traitement intra-modèle terminé pour {session_id} ===\n")
@@ -693,10 +690,11 @@ def process_intra_clash_detection(app, session_id, path, tolerance, use_ai):
             error_msg = f"ERREUR: {str(e)}\n{traceback.format_exc()}"
             print(error_msg)
             
+            # Créer le dossier d'erreur si nécessaire
             report_dir = os.path.join(current_app.config['REPORTS_FOLDER'], session_id)
             os.makedirs(report_dir, exist_ok=True)
-            error_path = os.path.join(report_dir, 'error.json')
             
+            error_path = os.path.join(report_dir, 'error.json')
             with open(error_path, 'w') as f:
                 json.dump({
                     'error': error_msg,
