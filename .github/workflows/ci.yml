@@ -1,53 +1,41 @@
-name: Full Stack CI
+name: Deploy Next.js App
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches:
+      - main  # or your default branch
 
 jobs:
-  ci:
+  build:
+
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout repository
-        uses: actions/checkout@v3
+    - name: Checkout code
+      uses: actions/checkout@v3
 
-      - name: 📦 Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          cache: 'npm'
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18  # Match your local version
 
-      # ===== FRONTEND =====
-      - name: 📂 Install frontend dependencies
-        working-directory: ./frontend
-        run: npm install
+    - name: Install dependencies
+      run: npm ci
 
-      - name: 🔨 Build frontend
-        working-directory: ./frontend
-        run: npm run build
+    - name: Build project
+      run: npm run build
 
-      - name: ✅ Run frontend tests
-        working-directory: ./frontend
-        run: |
-          if [ -f package.json ] && grep -q '"test":' package.json; then
-            npm test
-          else
-            echo "No frontend tests defined"
-          fi
+    - name: Run tests (optional)
+      run: npm test
 
-      # ===== BACKEND =====
-      - name: 📂 Install backend dependencies
-        working-directory: ./backend
-        run: npm install
+    - name: Export static site (optional for static export only)
+      run: npm run export
 
-      - name: ✅ Run backend tests
-        working-directory: ./backend
-        run: |
-          if [ -f package.json ] && grep -q '"test":' package.json; then
-            npm test
-          else
-            echo "No backend tests defined"
-          fi
+    # Example: Upload build artifacts (optional)
+    - name: Upload production build
+      uses: actions/upload-artifact@v3
+      with:
+        name: nextjs-build
+        path: .next
+
+    # You can add deploy steps below (e.g. Vercel, FTP, SSH, Docker, etc.)
