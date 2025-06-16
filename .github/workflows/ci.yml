@@ -1,0 +1,53 @@
+name: Full Stack CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v3
+
+      - name: 📦 Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'npm'
+
+      # ===== FRONTEND =====
+      - name: 📂 Install frontend dependencies
+        working-directory: ./frontend
+        run: npm install
+
+      - name: 🔨 Build frontend
+        working-directory: ./frontend
+        run: npm run build
+
+      - name: ✅ Run frontend tests
+        working-directory: ./frontend
+        run: |
+          if [ -f package.json ] && grep -q '"test":' package.json; then
+            npm test
+          else
+            echo "No frontend tests defined"
+          fi
+
+      # ===== BACKEND =====
+      - name: 📂 Install backend dependencies
+        working-directory: ./backend
+        run: npm install
+
+      - name: ✅ Run backend tests
+        working-directory: ./backend
+        run: |
+          if [ -f package.json ] && grep -q '"test":' package.json; then
+            npm test
+          else
+            echo "No backend tests defined"
+          fi
