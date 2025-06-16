@@ -29,6 +29,7 @@ class SpatialGrid:
             for y in range(min_cell[1], max_cell[1] + 1):
                 for z in range(min_cell[2], max_cell[2] + 1):
                     self.grid[(x,y,z)].append(element)
+
 class FastClashDetector:
     def __init__(self, tolerance=0.01, debug_mode=True):
         self.tolerance = tolerance
@@ -125,7 +126,6 @@ class FastClashDetector:
         else:
             print(f"Avertissement: Aucun élément valide dans {model_name}")
             return None
-   
 
     def get_element_geometry(self, element):
         """Extrait la géométrie détaillée d'un élément"""
@@ -141,6 +141,7 @@ class FastClashDetector:
             'faces': faces.tolist(),
             'color': getattr(shape, 'styles', [])[0] if getattr(shape, 'styles', None) else [0.8, 0.8, 0.8]
         }
+
     def detect_clashes(self, auto_adjust_tolerance=True):
         """Détection de clash entre tous les modèles avec ajustement automatique de tolérance"""
         if len(self.models) < 2:
@@ -182,6 +183,91 @@ class FastClashDetector:
         t_end = time.time()
         print(f"Détection terminée. {len(clashes)} clashs trouvés en {t_end - t_start:.2f} secondes")
         return clashes
+
+    def detect_intra_model_clashes(self, model_info, auto_adjust_tolerance=True):
+        """Détecte les clashs au sein d'un même modèle"""
+        if not model_info or len(model_info['elements']) < 2:
+            print("Le modèle ne contient pas assez d'éléments pour une détection intra-modèle")
+            return []
+        
+        print(f"Début de la détection intra-modèle: {model_info['model_name']}")
+        t_start = time.time()
+        
+        if auto_adjust_tolerance:
+            self._adjust_tolerance()
+        
+        elements = model_info['elements']
+        clashes = []
+        
+        # Créer une grille spatiale pour optimisation
+        cell_size = max(1.0, self.tolerance * 10)  # Taille de cellule adaptative
+        grid = SpatialGrid(cell_size)
+        for elem in elements:
+            grid.insert(elem)
+        
+        # Pour chaque élément, vérifier les clashs avec les éléments voisins
+        for i, elem_a in enumerate(elements):
+            if self.debug_mode and i % 100 == 0:
+                print(f"Traitement élément {i+1}/{len(elements)}")
+            
+            # Récupérer les éléments voisins via la grille
+            neighbors = self._get_neighbors(grid, elem_a)
+            
+            for elem_b in neighbors:
+                # Éviter les auto-collisions et les doublons (elem_a < elem_b)
+                if elem_a['guid'] >= elem_b['guid']:
+                    continue
+                    
+                # Vérifier la proximité rapide
+                if not self._quick_bbox_proximity(elem_a, elem_b, self.tolerance * 2):
+                    continue
+                    
+                # Vérification détaillée
+                clash = self._check_detailed_clash(elem_a, elem_b, self.tolerance)
+                if clash:
+                    clashes.append(clash)
+        
+        t_end = time.time()
+        print(f"Détection intra-modèle terminée. {len(clashes)} clashs trouvés en {t_end - t_start:.2f} secondes")
+        return clashes
+
+    def _get_neighbors(self, grid, element):
+        """Récupère les éléments voisins d'un élément donné via la grille spatiale"""
+        neighbors = set()
+        cell_keys = self._get_cell_keys_for_element(element, grid.cell_size)
+        
+        for key in cell_keys:
+            if key in grid.grid:
+                for neighbor in grid.grid[key]:
+                    # Ne pas ajouter l'élément lui-même
+                    if neighbor['guid'] != element['guid']:
+                        neighbors.add(neighbor['guid'])  # Use GUID as key to avoid duplicates
+        
+        # Convert back to element objects
+        return [elem for elem in grid.grid[cell_keys[0]] if elem['guid'] in neighbors] if cell_keys else []
+
+    def _get_cell_keys_for_element(self, element, cell_size):
+        """Génère toutes les clés de cellule couvertes par un élément"""
+        min_coord = element['bbox_min']
+        max_coord = element['bbox_max']
+        
+        min_cell = (
+            int(min_coord[0] // cell_size),
+            int(min_coord[1] // cell_size),
+            int(min_coord[2] // cell_size)
+        )
+        max_cell = (
+            int(max_coord[0] // cell_size),
+            int(max_coord[1] // cell_size),
+            int(max_coord[2] // cell_size)
+        )
+        
+        keys = []
+        for x in range(min_cell[0], max_cell[0] + 1):
+            for y in range(min_cell[1], max_cell[1] + 1):
+                for z in range(min_cell[2], max_cell[2] + 1):
+                    keys.append((x, y, z))
+        return keys
     
     def _check_coordinate_systems(self):
         """Vérifie si les modèles semblent être dans le même système de coordonnées"""
@@ -404,85 +490,3 @@ class FastClashDetector:
                 print(f"    {etype}: {count}")
             
             print("")
-def detect_intra_model_clashes(self, model_info, auto_adjust_tolerance=True):
-    """Détecte les clashs au sein d'un même modèle"""
-    if not model_info or len(model_info['elements']) < 2:
-        print("Le modèle ne contient pas assez d'éléments pour une détection intra-modèle")
-        return []
-    
-    print(f"Début de la détection intra-modèle: {model_info['model_name']}")
-    t_start = time.time()
-    
-    if auto_adjust_tolerance:
-        self._adjust_tolerance()
-    
-    elements = model_info['elements']
-    clashes = []
-    
-    # Créer une grille spatiale pour optimisation
-    cell_size = max(1.0, self.tolerance * 10)  # Taille de cellule adaptative
-    grid = SpatialGrid(cell_size)
-    for elem in elements:
-        grid.insert(elem)
-    
-    # Pour chaque élément, vérifier les clashs avec les éléments voisins
-    for i, elem_a in enumerate(elements):
-        if self.debug_mode and i % 100 == 0:
-            print(f"Traitement élément {i+1}/{len(elements)}")
-        
-        # Récupérer les éléments voisins via la grille
-        neighbors = self._get_neighbors(grid, elem_a)
-        
-        for elem_b in neighbors:
-            # Éviter les auto-collisions et les doublons (elem_a < elem_b)
-            if elem_a['guid'] >= elem_b['guid']:
-                continue
-                
-            # Vérifier la proximité rapide
-            if not self._quick_bbox_proximity(elem_a, elem_b, self.tolerance * 2):
-                continue
-                
-            # Vérification détaillée avec IA
-            clash = self._check_detailed_clash(elem_a, elem_b, self.tolerance)
-            if clash:
-                clashes.append(clash)
-    
-    t_end = time.time()
-    print(f"Détection intra-modèle terminée. {len(clashes)} clashs trouvés en {t_end - t_start:.2f} secondes")
-    return clashes
-def _get_neighbors(self, grid, element):
-    """Récupère les éléments voisins d'un élément donné via la grille spatiale"""
-    neighbors = set()
-    cell_keys = self._get_cell_keys_for_element(element, grid.cell_size)
-    
-    for key in cell_keys:
-        if key in grid.grid:
-            for neighbor in grid.grid[key]:
-                # Ne pas ajouter l'élément lui-même
-                if neighbor['guid'] != element['guid']:
-                    neighbors.add(neighbor)
-    
-    return list(neighbors)
-
-def _get_cell_keys_for_element(self, element, cell_size):
-    """Génère toutes les clés de cellule couvertes par un élément"""
-    min_coord = element['bbox_min']
-    max_coord = element['bbox_max']
-    
-    min_cell = (
-        int(min_coord[0] // cell_size),
-        int(min_coord[1] // cell_size),
-        int(min_coord[2] // cell_size)
-    )
-    max_cell = (
-        int(max_coord[0] // cell_size),
-        int(max_coord[1] // cell_size),
-        int(max_coord[2] // cell_size)
-    )
-    
-    keys = []
-    for x in range(min_cell[0], max_cell[0] + 1):
-        for y in range(min_cell[1], max_cell[1] + 1):
-            for z in range(min_cell[2], max_cell[2] + 1):
-                keys.append((x, y, z))
-    return keys
