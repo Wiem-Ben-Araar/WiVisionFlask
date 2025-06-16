@@ -208,28 +208,16 @@ def get_clash_visualization(session_id):
         return jsonify(data.get('visualizations', []))
 
 def generate_html_report(session_id, clashes, visualizations, app, intra_model=False, model_name=None):
-    """Génère un rapport HTML avec des visualisations"""
+    """Génère un rapport HTML avec des visualisations 3D"""
     report_dir = os.path.join(app.config['REPORTS_FOLDER'], session_id)
     html_path = os.path.join(report_dir, 'report.html')
-    
-    # Regrouper les clashs par type d'élément pour analyse
-    clash_by_type = {}
-    for clash in clashes:
-        type_a = clash['element_a']['type']
-        type_b = clash['element_b']['type']
-        key = f"{type_a} vs {type_b}"
-        
-        if key not in clash_by_type:
-            clash_by_type[key] = []
-            
-        clash_by_type[key].append(clash)
     
     # Titre en fonction du type de détection
     report_title = "Rapport de détection intra-modèle" if intra_model else "Rapport de détection de clash"
     
     # Générer un rapport HTML
     with open(html_path, 'w') as f:
-        # En-tête HTML
+        # En-tête HTML avec intégration de Three.js
         f.write(f'''
         <!DOCTYPE html>
         <html>
@@ -244,7 +232,14 @@ def generate_html_report(session_id, clashes, visualizations, app, intra_model=F
                 .summary {{ background-color: #e7f3fe; padding: 15px; border-radius: 5px; margin-bottom: 20px; }}
                 .section {{ margin-bottom: 30px; }}
                 h1, h2 {{ color: #333; }}
+                #visualization {{ width: 100%; height: 600px; border: 1px solid #ccc; margin-top: 20px; }}
+                .clash-details {{ display: flex; }}
+                .clash-table {{ flex: 1; }}
+                .clash-viewer {{ flex: 1; }}
+                .controls {{ margin: 10px 0; }}
             </style>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+            <script src="https://threejs.org/examples/js/controls/OrbitControls.js"></script>
         </head>
         <body>
             <h1>{report_title}</h1>
@@ -258,8 +253,6 @@ def generate_html_report(session_id, clashes, visualizations, app, intra_model=F
                 <p>Session ID: {session_id}</p>
                 <p>Modèle analysé: {model_name}</p>
                 <p>Nombre total de clashs: {len(clashes)}</p>
-                <p>Nombre d'éléments dans le modèle: {len(visualizations[0]['elements']) if visualizations else 0}</p>
-                <p>Nombre d'éléments en conflit: {len(set(c['element_a']['guid'] for c in clashes) | set(c['element_b']['guid'] for c in clashes))}</p>
             </div>
             ''')
         else:
@@ -271,20 +264,24 @@ def generate_html_report(session_id, clashes, visualizations, app, intra_model=F
             </div>
             ''')
             
-        f.write('''
-                </table>
-            </div>
-            
-            <div class="section">
-                <h2>Liste des clashs</h2>
-                <table>
-                    <tr>
-                        <th>ID</th>
-                        <th>Élément A</th>
-                        <th>Élément B</th>
-                        <th>Distance</th>
-                        <th>Volume de chevauchement</th>
-                    </tr>
+        f.write(f'''
+            <div class="clash-details">
+                <div class="clash-table">
+                    <h2>Liste des clashs</h2>
+                    <div class="controls">
+                        <button onclick="showClash(0)">Premier clash</button>
+                        <button onclick="nextClash()">Suivant</button>
+                        <button onclick="prevClash()">Précédent</button>
+                        <span id="clash-counter">1/{len(clashes)}</span>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>ID</th>
+                            <th>Élément A</th>
+                            <th>Élément B</th>
+                            <th>Distance</th>
+                            <th>Volume de chevauchement</th>
+                        </tr>
         ''')
         
         # Ajouter tous les clashs
@@ -295,18 +292,179 @@ def generate_html_report(session_id, clashes, visualizations, app, intra_model=F
             overlap = clash.get('overlap_volume', 'N/A')
             
             f.write(f'''
-                    <tr>
-                        <td>{i + 1}</td>
-                        <td>{elem_a} ({clash['element_a']['type']})</td>
-                        <td>{elem_b} ({clash['element_b']['type']})</td>
-                        <td>{distance:.4f} m</td>
-                        <td>{overlap if overlap == 'N/A' else f"{overlap:.6f} m³"}</td>
-                    </tr>
+                        <tr id="clash-row-{i}" onclick="showClash({i})">
+                            <td>{i + 1}</td>
+                            <td>{elem_a} ({clash['element_a']['type']})</td>
+                            <td>{elem_b} ({clash['element_b']['type']})</td>
+                            <td>{distance:.4f} m</td>
+                            <td>{overlap if overlap == 'N/A' else f"{overlap:.6f} m³"}</td>
+                        </tr>
             ''')
             
         f.write('''
-                </table>
+                    </table>
+                </div>
+                <div class="clash-viewer">
+                    <h2>Visualisation 3D du clash</h2>
+                    <div id="visualization"></div>
+                </div>
             </div>
+            
+            <script>
+                // Données des clashs
+                const clashes = ''' + json.dumps(visualizations) + ''';
+                let currentClashIndex = 0;
+                let scene, camera, renderer, controls;
+                
+                // Initialisation de Three.js
+                function initThreeJS() {
+                    // Créer la scène
+                    scene = new THREE.Scene();
+                    scene.background = new THREE.Color(0xf0f0f0);
+                    
+                    // Créer la caméra
+                    camera = new THREE.PerspectiveCamera(75, 
+                        document.getElementById('visualization').clientWidth / 
+                        document.getElementById('visualization').clientHeight, 
+                        0.1, 1000);
+                    camera.position.z = 5;
+                    
+                    // Créer le renderer
+                    renderer = new THREE.WebGLRenderer({ antialias: true });
+                    renderer.setSize(
+                        document.getElementById('visualization').clientWidth,
+                        document.getElementById('visualization').clientHeight
+                    );
+                    document.getElementById('visualization').appendChild(renderer.domElement);
+                    
+                    // Ajouter des contrôles orbitaux
+                    controls = new THREE.OrbitControls(camera, renderer.domElement);
+                    controls.enableDamping = true;
+                    controls.dampingFactor = 0.05;
+                    
+                    // Ajouter un éclairage
+                    const ambientLight = new THREE.AmbientLight(0x404040);
+                    scene.add(ambientLight);
+                    
+                    const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
+                    directionalLight.position.set(1, 1, 1).normalize();
+                    scene.add(directionalLight);
+                    
+                    // Afficher le premier clash
+                    showClash(0);
+                    
+                    // Animer la scène
+                    function animate() {
+                        requestAnimationFrame(animate);
+                        controls.update();
+                        renderer.render(scene, camera);
+                    }
+                    animate();
+                    
+                    // Gérer le redimensionnement
+                    window.addEventListener('resize', () => {
+                        camera.aspect = document.getElementById('visualization').clientWidth / 
+                                        document.getElementById('visualization').clientHeight;
+                        camera.updateProjectionMatrix();
+                        renderer.setSize(
+                            document.getElementById('visualization').clientWidth,
+                            document.getElementById('visualization').clientHeight
+                        );
+                    });
+                }
+                
+                // Afficher un clash spécifique
+                function showClash(index) {
+                    // Mettre à jour l'index courant
+                    currentClashIndex = index;
+                    document.getElementById('clash-counter').textContent = `${index + 1}/${clashes.length}`;
+                    
+                    // Mettre en surbrillance la ligne sélectionnée
+                    document.querySelectorAll('tr[id^="clash-row-"]').forEach(row => {
+                        row.style.backgroundColor = '';
+                    });
+                    document.getElementById(`clash-row-${index}`).style.backgroundColor = '#e0f7fa';
+                    
+                    // Nettoyer la scène
+                    while(scene.children.length > 2) {
+                        scene.remove(scene.children[2]);
+                    }
+                    
+                    // Récupérer les données du clash
+                    const clash = clashes[index];
+                    
+                    // Ajouter l'élément A (rouge)
+                    const geometryA = new THREE.BufferGeometry();
+                    const verticesA = new Float32Array(clash.geometries.element_a.vertices.flat());
+                    geometryA.setAttribute('position', new THREE.BufferAttribute(verticesA, 3));
+                    const meshA = new THREE.Mesh(
+                        geometryA,
+                        new THREE.MeshPhongMaterial({ 
+                            color: 0xff0000, 
+                            transparent: true,
+                            opacity: 0.7 
+                        })
+                    );
+                    scene.add(meshA);
+                    
+                    // Ajouter l'élément B (bleu)
+                    const geometryB = new THREE.BufferGeometry();
+                    const verticesB = new Float32Array(clash.geometries.element_b.vertices.flat());
+                    geometryB.setAttribute('position', new THREE.BufferAttribute(verticesB, 3));
+                    const meshB = new THREE.Mesh(
+                        geometryB,
+                        new THREE.MeshPhongMaterial({ 
+                            color: 0x0000ff, 
+                            transparent: true,
+                            opacity: 0.7 
+                        })
+                    );
+                    scene.add(meshB);
+                    
+                    // Ajouter la sphère de clash (vert)
+                    const sphereGeometry = new THREE.SphereGeometry(clash.clash_sphere.radius, 32, 32);
+                    const sphereMaterial = new THREE.MeshBasicMaterial({ 
+                        color: 0x00ff00, 
+                        wireframe: true 
+                    });
+                    const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
+                    sphere.position.set(
+                        clash.clash_sphere.position[0],
+                        clash.clash_sphere.position[1],
+                        clash.clash_sphere.position[2]
+                    );
+                    scene.add(sphere);
+                    
+                    // Centrer la caméra sur le clash
+                    const bbox = new THREE.Box3().setFromObject(sphere);
+                    const center = bbox.getCenter(new THREE.Vector3());
+                    const size = bbox.getSize(new THREE.Vector3());
+                    const maxDim = Math.max(size.x, size.y, size.z);
+                    const fov = camera.fov * (Math.PI / 180);
+                    let cameraZ = Math.abs(maxDim / (2 * Math.tan(fov / 2)));
+                    cameraZ *= 2; // Ajustement pour voir l'ensemble
+                    
+                    camera.position.copy(center);
+                    camera.position.z += cameraZ;
+                    camera.lookAt(center);
+                    controls.update();
+                }
+                
+                // Clash suivant
+                function nextClash() {
+                    const nextIndex = (currentClashIndex + 1) % clashes.length;
+                    showClash(nextIndex);
+                }
+                
+                // Clash précédent
+                function prevClash() {
+                    const prevIndex = (currentClashIndex - 1 + clashes.length) % clashes.length;
+                    showClash(prevIndex);
+                }
+                
+                // Initialiser Three.js quand la page est chargée
+                window.addEventListener('load', initThreeJS);
+            </script>
         </body>
         </html>
         ''')
@@ -350,7 +508,7 @@ def get_report(session_id):
         return jsonify(json.load(f))
 
 @main.route('/api/report/html/<session_id>')
-@cross_origin()  # Ajouter CORS pour l'accès au rapport HTML
+@cross_origin()
 def get_html_report(session_id):
     """Endpoint pour accéder au rapport HTML"""
     report_path = os.path.join(current_app.config['REPORTS_FOLDER'], session_id, 'report.html')
@@ -358,10 +516,8 @@ def get_html_report(session_id):
     if not os.path.exists(report_path):
         return jsonify(error="Rapport HTML non trouvé"), 404
         
-    with open(report_path, 'r') as f:
-        html_content = f.read()
-    
-    return html_content
+    # Renvoyer le rapport HTML directement
+    return send_file(report_path)
 
 # Fonctionnalités optionnelles
 @main.route('/api/clash/history')
