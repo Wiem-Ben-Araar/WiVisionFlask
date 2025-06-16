@@ -1,0 +1,1 @@
+{"error": "ERREUR: 'FastClashDetector' object has no attribute 'add_model'\nTraceback (most recent call last):\n  File \"C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\routes.py\", line 80, in process_clash_detection\n    detector.add_model(path)\nAttributeError: 'FastClashDetector' object has no attribute 'add_model'\n", "status": "failed"}

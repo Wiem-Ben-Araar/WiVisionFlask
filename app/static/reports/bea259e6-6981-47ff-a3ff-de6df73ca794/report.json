@@ -1,0 +1,3347 @@
+{
+  "session_id": "bea259e6-6981-47ff-a3ff-de6df73ca794",
+  "status": "completed",
+  "clash_count": 159,
+  "clashes": [
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjnU",
+        "name": "A-GEN-Aluminium Door Handle:-:514896",
+        "type": "IfcBuildingElementProxy",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme5N",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.25495100021362305,
+      "overlap_volume": 0.010312557220458984,
+      "position": [
+        560987.1875,
+        4100134.0,
+        13.949999809265137
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjnM",
+        "name": "A-GEN-Aluminium Door Handle:-:514904",
+        "type": "IfcBuildingElementProxy",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme4_",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.3164747655391693,
+      "overlap_volume": 0.010312557220458984,
+      "position": [
+        560987.1875,
+        4100153.0,
+        13.949999809265137
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjn1",
+        "name": "A-DOR-Aluminium Double:1.6 x 2.2 m Type D 2:514895",
+        "type": "IfcDoor",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme5N",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.3125,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.125,
+        4100134.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjnP",
+        "name": "A-DOR-Aluminium Double:1.6 x 2.2 m Type D 2:514903",
+        "type": "IfcDoor",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme4_",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.25,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.125,
+        4100153.25,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjna",
+        "name": "A-DOR-Aluminium Double:1.6 x 2.2 m Type D 2:514922",
+        "type": "IfcDoor",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5IrjmmeDV",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.3125,
+      "overlap_volume": 0.7546879053115845,
+      "position": [
+        560987.125,
+        4100166.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2TSHz9$xnFc9VPpPX8DXhX",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 72.33676147460938,
+      "overlap_volume": 0.009375035762786865,
+      "position": [
+        560987.125,
+        4100145.0,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2HrzqRpsrDZfeG1OkhXr9w",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 72.20358276367188,
+      "overlap_volume": 0.009375035762786865,
+      "position": [
+        560987.125,
+        4100148.5,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "23HDvG$YzCTuZy6SYgAtzh",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 72.22435760498047,
+      "overlap_volume": 0.009375035762786865,
+      "position": [
+        560987.125,
+        4100151.5,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "1VO8wfK1DAMhsMfg18aEi9",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 72.63854217529297,
+      "overlap_volume": 0.009375035762786865,
+      "position": [
+        560987.125,
+        4100157.5,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "38ov4bmBz1UPCLk_NYnx4l",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 73.14656829833984,
+      "overlap_volume": 0.01250004768371582,
+      "position": [
+        560987.125,
+        4100161.25,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3KJNWU28j5ohrtqg2tufw0",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 73.78970336914062,
+      "overlap_volume": 0.01250004768371582,
+      "position": [
+        560987.125,
+        4100164.75,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0iEvFWiJ5EFPKUejXSF_rF",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 72.33676147460938,
+      "overlap_volume": 0.009375035762786865,
+      "position": [
+        560987.125,
+        4100145.0,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3jH3k2AZXFRRWF$VNPDVBG",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 72.20358276367188,
+      "overlap_volume": 0.009375035762786865,
+      "position": [
+        560987.125,
+        4100148.5,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "1_$04EAt9CCOw38pALaFQo",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 72.22435760498047,
+      "overlap_volume": 0.009375035762786865,
+      "position": [
+        560987.125,
+        4100151.5,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0Oxs0hAr1CSRpf5Xz1hVyv",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 72.63854217529297,
+      "overlap_volume": 0.009375035762786865,
+      "position": [
+        560987.125,
+        4100157.5,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3vTq4oyz9Cq8dctWr9uySe",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 74.52923583984375,
+      "overlap_volume": 0.009375035762786865,
+      "position": [
+        560987.125,
+        4100131.0,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0wq6J4nCf7DPqukRCeQmC9",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 73.14656829833984,
+      "overlap_volume": 0.01250004768371582,
+      "position": [
+        560987.125,
+        4100161.25,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0lsvFJ68b459r6om8B8DiM",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 73.78970336914062,
+      "overlap_volume": 0.01250004768371582,
+      "position": [
+        560987.125,
+        4100164.75,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "1qKY3eiPHDtBsZhRDl_b2H",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 72.63854217529297,
+      "overlap_volume": 0.009375035762786865,
+      "position": [
+        560987.125,
+        4100157.5,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "21skZFsZz1IApFbKzw4Iqh",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 73.14656829833984,
+      "overlap_volume": 0.01250004768371582,
+      "position": [
+        560987.125,
+        4100161.25,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "1TnhvAcHLESPcqyNpKEYSV",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 74.52923583984375,
+      "overlap_volume": 0.009375035762786865,
+      "position": [
+        560987.125,
+        4100131.0,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0n$4ViFYTAUxk_Fej0bNJW",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 73.78970336914062,
+      "overlap_volume": 0.01250004768371582,
+      "position": [
+        560987.125,
+        4100164.75,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0MuyIz0uj2U9cH4h8Q8Rau",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 72.33676147460938,
+      "overlap_volume": 0.009375035762786865,
+      "position": [
+        560987.125,
+        4100145.0,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2JnhydoifD2Reb$981aNUc",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 72.20358276367188,
+      "overlap_volume": 0.009375035762786865,
+      "position": [
+        560987.125,
+        4100148.5,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3qnTi0qp5BfB_bMpudAGG8",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 72.22435760498047,
+      "overlap_volume": 0.009375035762786865,
+      "position": [
+        560987.125,
+        4100151.5,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "37a88e0CP8uf6R7z5_Ws$w",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 74.52923583984375,
+      "overlap_volume": 0.009375035762786865,
+      "position": [
+        560987.125,
+        4100131.0,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPF",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 74.52923583984375,
+      "overlap_volume": 0.009375035762786865,
+      "position": [
+        560987.125,
+        4100131.0,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme5N",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 73.7195816040039,
+      "overlap_volume": 0.19687575101852417,
+      "position": [
+        560986.5,
+        4100134.0,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPg",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 72.33676147460938,
+      "overlap_volume": 0.009375035762786865,
+      "position": [
+        560987.125,
+        4100145.0,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPh",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 72.20358276367188,
+      "overlap_volume": 0.009375035762786865,
+      "position": [
+        560987.125,
+        4100148.5,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPa",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 72.22435760498047,
+      "overlap_volume": 0.009375035762786865,
+      "position": [
+        560987.125,
+        4100151.5,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme4_",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 72.10675811767578,
+      "overlap_volume": 0.20625078678131104,
+      "position": [
+        560986.5,
+        4100153.25,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzH",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 72.63854217529297,
+      "overlap_volume": 0.009375035762786865,
+      "position": [
+        560987.125,
+        4100157.5,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzI",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 73.14656829833984,
+      "overlap_volume": 0.01250004768371582,
+      "position": [
+        560987.125,
+        4100161.25,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzJ",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 73.78970336914062,
+      "overlap_volume": 0.01250004768371582,
+      "position": [
+        560987.125,
+        4100164.75,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5IrjmmeDV",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 74.04948425292969,
+      "overlap_volume": 0.2296883761882782,
+      "position": [
+        560986.5,
+        4100166.5,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2TSHz9$xnFc9VPpPX8DXhX",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 5.445195198059082,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100145.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2HrzqRpsrDZfeG1OkhXr9w",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 3.224926471710205,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100148.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "23HDvG$YzCTuZy6SYgAtzh",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 3.6606216430664062,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100151.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "1VO8wfK1DAMhsMfg18aEi9",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 8.567388534545898,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100157.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "38ov4bmBz1UPCLk_NYnx4l",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 12.143420219421387,
+      "overlap_volume": 0.8625004291534424,
+      "position": [
+        560987.25,
+        4100161.25,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3KJNWU28j5ohrtqg2tufw0",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 15.555148124694824,
+      "overlap_volume": 0.8625004291534424,
+      "position": [
+        560987.25,
+        4100164.75,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0iEvFWiJ5EFPKUejXSF_rF",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 5.445195198059082,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100145.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3jH3k2AZXFRRWF$VNPDVBG",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 3.224926471710205,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100148.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "1_$04EAt9CCOw38pALaFQo",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 3.6606216430664062,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100151.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3vTq4oyz9Cq8dctWr9uySe",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 18.752336502075195,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100131.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0Oxs0hAr1CSRpf5Xz1hVyv",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 8.567388534545898,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100157.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0wq6J4nCf7DPqukRCeQmC9",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 12.143420219421387,
+      "overlap_volume": 0.8625004291534424,
+      "position": [
+        560987.25,
+        4100161.25,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0lsvFJ68b459r6om8B8DiM",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 15.555148124694824,
+      "overlap_volume": 0.8625004291534424,
+      "position": [
+        560987.25,
+        4100164.75,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "1qKY3eiPHDtBsZhRDl_b2H",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 8.567388534545898,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100157.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "21skZFsZz1IApFbKzw4Iqh",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 12.143420219421387,
+      "overlap_volume": 0.8625004291534424,
+      "position": [
+        560987.25,
+        4100161.25,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "1TnhvAcHLESPcqyNpKEYSV",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 18.752336502075195,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100131.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0n$4ViFYTAUxk_Fej0bNJW",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 15.555148124694824,
+      "overlap_volume": 0.8625004291534424,
+      "position": [
+        560987.25,
+        4100164.75,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0MuyIz0uj2U9cH4h8Q8Rau",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 5.445195198059082,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100145.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2JnhydoifD2Reb$981aNUc",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 3.224926471710205,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100148.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3qnTi0qp5BfB_bMpudAGG8",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 3.6606216430664062,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100151.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "37a88e0CP8uf6R7z5_Ws$w",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 18.752336502075195,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100131.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPF",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 18.752336502075195,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100131.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme5N",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 15.79834270477295,
+      "overlap_volume": 1.2937506437301636,
+      "position": [
+        560987.25,
+        4100134.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPg",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 5.445195198059082,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100145.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPh",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 3.224926471710205,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100148.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPa",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 3.6606216430664062,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100151.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme4_",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 4.83535099029541,
+      "overlap_volume": 1.2937506437301636,
+      "position": [
+        560987.25,
+        4100153.25,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKQu",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc"
+      },
+      "distance": 23.61927604675293,
+      "overlap_volume": 3.8921873569488525,
+      "position": [
+        560987.375,
+        4100126.0,
+        14.69999885559082
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzH",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 8.567388534545898,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100157.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzI",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 12.143420219421387,
+      "overlap_volume": 0.8625004291534424,
+      "position": [
+        560987.25,
+        4100161.25,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzJ",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 15.555148124694824,
+      "overlap_volume": 0.8625004291534424,
+      "position": [
+        560987.25,
+        4100164.75,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5IrjmmeDV",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 17.27245330810547,
+      "overlap_volume": 1.509375810623169,
+      "position": [
+        560987.25,
+        4100166.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKP0",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc"
+      },
+      "distance": 11.986769676208496,
+      "overlap_volume": 2.9375,
+      "position": [
+        560987.375,
+        4100137.75,
+        14.69999885559082
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPQ",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc"
+      },
+      "distance": 2.5729658603668213,
+      "overlap_volume": 3.378124952316284,
+      "position": [
+        560987.375,
+        4100148.5,
+        14.69999885559082
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPs",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc"
+      },
+      "distance": 17.65984535217285,
+      "overlap_volume": 7.490624904632568,
+      "position": [
+        560987.375,
+        4100167.0,
+        14.69999885559082
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKOW",
+        "name": "Mur de base:Mur - Ext. 35cm:272876",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc"
+      },
+      "distance": 31.191267013549805,
+      "overlap_volume": 0.12187492847442627,
+      "position": [
+        560987.375,
+        4100119.75,
+        18.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKOX",
+        "name": "Mur de base:Mur - Ext. 25cm:272877",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc"
+      },
+      "distance": 1.8927909135818481,
+      "overlap_volume": 14.503116607666016,
+      "position": [
+        560987.375,
+        4100149.75,
+        18.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKOY",
+        "name": "Mur de base:Mur - Ext. 35cm:272878",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc"
+      },
+      "distance": 31.429805755615234,
+      "overlap_volume": 0.060937464237213135,
+      "position": [
+        560987.375,
+        4100179.5,
+        18.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2OTH_nyrzAlxAuX8hDI7e0",
+        "name": "Mur de base:Mur - Ext. 2.5cm:389310",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc"
+      },
+      "distance": 31.630495071411133,
+      "overlap_volume": 0.014062494039535522,
+      "position": [
+        560987.375,
+        4100119.5,
+        21.200000762939453
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2TSHz9$xnFc9VPpPX8DXhX",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 5.508870601654053,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100145.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2HrzqRpsrDZfeG1OkhXr9w",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 2.0242669582366943,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100148.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "23HDvG$YzCTuZy6SYgAtzh",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 1.0476908683776855,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100151.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "1VO8wfK1DAMhsMfg18aEi9",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 7.006971836090088,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100157.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "38ov4bmBz1UPCLk_NYnx4l",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 10.754541397094727,
+      "overlap_volume": 0.8625004291534424,
+      "position": [
+        560987.25,
+        4100161.25,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3KJNWU28j5ohrtqg2tufw0",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 14.253426551818848,
+      "overlap_volume": 0.8625004291534424,
+      "position": [
+        560987.25,
+        4100164.75,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0iEvFWiJ5EFPKUejXSF_rF",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 5.508870601654053,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100145.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3jH3k2AZXFRRWF$VNPDVBG",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 2.0242669582366943,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100148.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "1_$04EAt9CCOw38pALaFQo",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 1.0476908683776855,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100151.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0Oxs0hAr1CSRpf5Xz1hVyv",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 7.006971836090088,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100157.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0wq6J4nCf7DPqukRCeQmC9",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 10.754541397094727,
+      "overlap_volume": 0.8625004291534424,
+      "position": [
+        560987.25,
+        4100161.25,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0lsvFJ68b459r6om8B8DiM",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 14.253426551818848,
+      "overlap_volume": 0.8625004291534424,
+      "position": [
+        560987.25,
+        4100164.75,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "1qKY3eiPHDtBsZhRDl_b2H",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 7.006971836090088,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100157.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "21skZFsZz1IApFbKzw4Iqh",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 10.754541397094727,
+      "overlap_volume": 0.8625004291534424,
+      "position": [
+        560987.25,
+        4100161.25,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0n$4ViFYTAUxk_Fej0bNJW",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 14.253426551818848,
+      "overlap_volume": 0.8625004291534424,
+      "position": [
+        560987.25,
+        4100164.75,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0MuyIz0uj2U9cH4h8Q8Rau",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 5.508870601654053,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100145.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2JnhydoifD2Reb$981aNUc",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 2.0242669582366943,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100148.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3qnTi0qp5BfB_bMpudAGG8",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 1.0476908683776855,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100151.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme5N",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 16.501066207885742,
+      "overlap_volume": 1.2937506437301636,
+      "position": [
+        560987.25,
+        4100134.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPg",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 5.508870601654053,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100145.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPh",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 2.0242669582366943,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100148.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPa",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 1.0476908683776855,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100151.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme4_",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 2.7528393268585205,
+      "overlap_volume": 1.2937506437301636,
+      "position": [
+        560987.25,
+        4100153.25,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzH",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 7.006971836090088,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.25,
+        4100157.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzI",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 10.754541397094727,
+      "overlap_volume": 0.8625004291534424,
+      "position": [
+        560987.25,
+        4100161.25,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzJ",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 14.253426551818848,
+      "overlap_volume": 0.8625004291534424,
+      "position": [
+        560987.25,
+        4100164.75,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5IrjmmeDV",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 16.0010986328125,
+      "overlap_volume": 1.509375810623169,
+      "position": [
+        560987.25,
+        4100166.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKP0",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc"
+      },
+      "distance": 12.773024559020996,
+      "overlap_volume": 1.3656256198883057,
+      "position": [
+        560987.375,
+        4100138.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPQ",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc"
+      },
+      "distance": 2.1418814659118652,
+      "overlap_volume": 1.6531257629394531,
+      "position": [
+        560987.375,
+        4100148.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPs",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc"
+      },
+      "distance": 16.517797470092773,
+      "overlap_volume": 1.9046884775161743,
+      "position": [
+        560987.375,
+        4100161.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73CPHljjn1",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme5N",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.2549508213996887,
+      "overlap_volume": 1.2937506437301636,
+      "position": [
+        560987.1875,
+        4100134.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73CPHljjnP",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme4_",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.13462883234024048,
+      "overlap_volume": 1.2937506437301636,
+      "position": [
+        560987.25,
+        4100153.25,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73CPHljjnP",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPQ",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc"
+      },
+      "distance": 4.818988800048828,
+      "overlap_volume": 0.2250000536441803,
+      "position": [
+        560987.375,
+        4100153.25,
+        13.950000762939453
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73CPHljjna",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPs",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc"
+      },
+      "distance": 0.9540203213691711,
+      "overlap_volume": 0.2625000476837158,
+      "position": [
+        560987.375,
+        4100166.5,
+        13.950000762939453
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73CPHljjna",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5IrjmmeDV",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.19405198097229004,
+      "overlap_volume": 1.509375810623169,
+      "position": [
+        560987.25,
+        4100166.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHMN",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3KJNWU28j5ohrtqg2tufw0",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.1875,
+      "overlap_volume": 2.3000011444091797,
+      "position": [
+        560987.5625,
+        4100164.75,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHMN",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0lsvFJ68b459r6om8B8DiM",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.1875,
+      "overlap_volume": 2.3000011444091797,
+      "position": [
+        560987.5625,
+        4100164.75,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHMN",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOLzJ",
+        "name": "PVC Panneau Vitr\u00e9 - Traverse:0.9 x 2.2 m (0.8x2.15m):274591",
+        "type": "IfcDoor",
+        "model": "model4.ifc"
+      },
+      "distance": 0.25,
+      "overlap_volume": 0.4312502145767212,
+      "position": [
+        560987.625,
+        4100164.75,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHMN",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0n$4ViFYTAUxk_Fej0bNJW",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.1875,
+      "overlap_volume": 2.3000011444091797,
+      "position": [
+        560987.5625,
+        4100164.75,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHMN",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKFG",
+        "name": "Radier:B\u00e9ton - 100 mm:273436",
+        "type": "IfcSlab",
+        "model": "model4.ifc"
+      },
+      "distance": 18.341228485107422,
+      "overlap_volume": 0.1312505006790161,
+      "position": [
+        560988.25,
+        4100164.75,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHMN",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzJ",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.1875,
+      "overlap_volume": 2.3000011444091797,
+      "position": [
+        560987.5625,
+        4100164.75,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHMN",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPs",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc"
+      },
+      "distance": 2.3638222217559814,
+      "overlap_volume": 0.8625004291534424,
+      "position": [
+        560987.5625,
+        4100164.75,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHVO",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPs",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc"
+      },
+      "distance": 5.795485496520996,
+      "overlap_volume": 0.8625004291534424,
+      "position": [
+        560987.5625,
+        4100161.25,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHVO",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOLzI",
+        "name": "PVC Panneau Vitr\u00e9 - Traverse:0.9 x 2.2 m (0.8x2.15m):274590",
+        "type": "IfcDoor",
+        "model": "model4.ifc"
+      },
+      "distance": 0.25,
+      "overlap_volume": 0.4312502145767212,
+      "position": [
+        560987.625,
+        4100161.25,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHVO",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "21skZFsZz1IApFbKzw4Iqh",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.1875,
+      "overlap_volume": 2.3000011444091797,
+      "position": [
+        560987.5625,
+        4100161.25,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHVO",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKFG",
+        "name": "Radier:B\u00e9ton - 100 mm:273436",
+        "type": "IfcSlab",
+        "model": "model4.ifc"
+      },
+      "distance": 15.553154945373535,
+      "overlap_volume": 0.1312505006790161,
+      "position": [
+        560988.25,
+        4100161.25,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHVO",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzI",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.1875,
+      "overlap_volume": 2.3000011444091797,
+      "position": [
+        560987.5625,
+        4100161.25,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHVO",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "38ov4bmBz1UPCLk_NYnx4l",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.1875,
+      "overlap_volume": 2.3000011444091797,
+      "position": [
+        560987.5625,
+        4100161.25,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHVO",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0wq6J4nCf7DPqukRCeQmC9",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.1875,
+      "overlap_volume": 2.3000011444091797,
+      "position": [
+        560987.5625,
+        4100161.25,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHU_",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPs",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc"
+      },
+      "distance": 9.535796165466309,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.5625,
+        4100157.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHU_",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOLzH",
+        "name": "PVC Panneau Vitr\u00e9 - Traverse:0.9 x 2.2 m (0.8x2.15m):274589",
+        "type": "IfcDoor",
+        "model": "model4.ifc"
+      },
+      "distance": 0.5,
+      "overlap_volume": 0.3234376609325409,
+      "position": [
+        560987.625,
+        4100157.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHU_",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "1qKY3eiPHDtBsZhRDl_b2H",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.4375,
+      "overlap_volume": 1.7250008583068848,
+      "position": [
+        560987.5625,
+        4100157.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHU_",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKFG",
+        "name": "Radier:B\u00e9ton - 100 mm:273436",
+        "type": "IfcSlab",
+        "model": "model4.ifc"
+      },
+      "distance": 13.151544570922852,
+      "overlap_volume": 0.07968780398368835,
+      "position": [
+        560988.125,
+        4100157.5,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHU_",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzH",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.4375,
+      "overlap_volume": 1.7250008583068848,
+      "position": [
+        560987.5625,
+        4100157.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHU_",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "1VO8wfK1DAMhsMfg18aEi9",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.4375,
+      "overlap_volume": 1.7250008583068848,
+      "position": [
+        560987.5625,
+        4100157.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHU_",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0Oxs0hAr1CSRpf5Xz1hVyv",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.4375,
+      "overlap_volume": 1.7250008583068848,
+      "position": [
+        560987.5625,
+        4100157.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH3t",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "23HDvG$YzCTuZy6SYgAtzh",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.4375,
+      "overlap_volume": 1.7250008583068848,
+      "position": [
+        560987.5625,
+        4100151.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH3t",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "1_$04EAt9CCOw38pALaFQo",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.4375,
+      "overlap_volume": 1.7250008583068848,
+      "position": [
+        560987.5625,
+        4100151.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH3t",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPa",
+        "name": "PVC Panneau Vitr\u00e9 - Traverse:0.9 x 2.2 m (0.8x2.15m):272808",
+        "type": "IfcDoor",
+        "model": "model4.ifc"
+      },
+      "distance": 0.5,
+      "overlap_volume": 0.3234376609325409,
+      "position": [
+        560987.625,
+        4100151.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH3t",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3qnTi0qp5BfB_bMpudAGG8",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.4375,
+      "overlap_volume": 1.7250008583068848,
+      "position": [
+        560987.5625,
+        4100151.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH3t",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKFG",
+        "name": "Radier:B\u00e9ton - 100 mm:273436",
+        "type": "IfcSlab",
+        "model": "model4.ifc"
+      },
+      "distance": 10.628411293029785,
+      "overlap_volume": 0.07968780398368835,
+      "position": [
+        560988.125,
+        4100151.5,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH3t",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPa",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.4375,
+      "overlap_volume": 1.7250008583068848,
+      "position": [
+        560987.5625,
+        4100151.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH3t",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPQ",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc"
+      },
+      "distance": 3.1114957332611084,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.5625,
+        4100151.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH0K",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2HrzqRpsrDZfeG1OkhXr9w",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.3125,
+      "overlap_volume": 1.7250008583068848,
+      "position": [
+        560987.5625,
+        4100148.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH0K",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3jH3k2AZXFRRWF$VNPDVBG",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.3125,
+      "overlap_volume": 1.7250008583068848,
+      "position": [
+        560987.5625,
+        4100148.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH0K",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPh",
+        "name": "PVC Panneau Vitr\u00e9 - Traverse:0.9 x 2.2 m (0.8x2.15m):272807",
+        "type": "IfcDoor",
+        "model": "model4.ifc"
+      },
+      "distance": 0.3535533845424652,
+      "overlap_volume": 0.3234376609325409,
+      "position": [
+        560987.625,
+        4100148.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH0K",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2JnhydoifD2Reb$981aNUc",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.3125,
+      "overlap_volume": 1.7250008583068848,
+      "position": [
+        560987.5625,
+        4100148.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH0K",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKFG",
+        "name": "Radier:B\u00e9ton - 100 mm:273436",
+        "type": "IfcSlab",
+        "model": "model4.ifc"
+      },
+      "distance": 10.266480445861816,
+      "overlap_volume": 0.1312505006790161,
+      "position": [
+        560988.25,
+        4100148.25,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH0K",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPh",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.3125,
+      "overlap_volume": 1.7250008583068848,
+      "position": [
+        560987.5625,
+        4100148.5,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH0K",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPQ",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc"
+      },
+      "distance": 0.7665872573852539,
+      "overlap_volume": 0.8625004291534424,
+      "position": [
+        560987.5625,
+        4100148.25,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH72",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "2TSHz9$xnFc9VPpPX8DXhX",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.4375,
+      "overlap_volume": 1.7250008583068848,
+      "position": [
+        560987.5625,
+        4100145.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH72",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0iEvFWiJ5EFPKUejXSF_rF",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.4375,
+      "overlap_volume": 1.7250008583068848,
+      "position": [
+        560987.5625,
+        4100145.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH72",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPg",
+        "name": "PVC Panneau Vitr\u00e9 - Traverse:0.9 x 2.2 m (0.8x2.15m):272806",
+        "type": "IfcDoor",
+        "model": "model4.ifc"
+      },
+      "distance": 0.5,
+      "overlap_volume": 0.3234376609325409,
+      "position": [
+        560987.625,
+        4100145.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH72",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "0MuyIz0uj2U9cH4h8Q8Rau",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.4375,
+      "overlap_volume": 1.7250008583068848,
+      "position": [
+        560987.5625,
+        4100145.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH72",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKFG",
+        "name": "Radier:B\u00e9ton - 100 mm:273436",
+        "type": "IfcSlab",
+        "model": "model4.ifc"
+      },
+      "distance": 11.367195129394531,
+      "overlap_volume": 0.07968780398368835,
+      "position": [
+        560988.125,
+        4100145.0,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH72",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPg",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.4375,
+      "overlap_volume": 1.7250008583068848,
+      "position": [
+        560987.5625,
+        4100145.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH72",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPQ",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc"
+      },
+      "distance": 3.5960264205932617,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.5625,
+        4100145.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH6k",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "1TnhvAcHLESPcqyNpKEYSV",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.4375,
+      "overlap_volume": 1.7250008583068848,
+      "position": [
+        560987.5625,
+        4100131.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH6k",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKFG",
+        "name": "Radier:B\u00e9ton - 100 mm:273436",
+        "type": "IfcSlab",
+        "model": "model4.ifc"
+      },
+      "distance": 21.241777420043945,
+      "overlap_volume": 0.07968780398368835,
+      "position": [
+        560988.125,
+        4100131.0,
+        12.899999618530273
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH6k",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPF",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.4375,
+      "overlap_volume": 1.7250008583068848,
+      "position": [
+        560987.5625,
+        4100131.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH6k",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "37a88e0CP8uf6R7z5_Ws$w",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.4375,
+      "overlap_volume": 1.7250008583068848,
+      "position": [
+        560987.5625,
+        4100131.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH6k",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKQu",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc"
+      },
+      "distance": 5.06768274307251,
+      "overlap_volume": 0.6468753218650818,
+      "position": [
+        560987.5625,
+        4100131.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH6k",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPF",
+        "name": "PVC Panneau Vitr\u00e9 - Traverse:0.9 x 2.2 m (0.8x2.15m):272771",
+        "type": "IfcDoor",
+        "model": "model4.ifc"
+      },
+      "distance": 0.5,
+      "overlap_volume": 0.3234376609325409,
+      "position": [
+        560987.625,
+        4100131.0,
+        14.0
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH6k",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc"
+      },
+      "element_b": {
+        "guid": "3vTq4oyz9Cq8dctWr9uySe",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc"
+      },
+      "distance": 0.4375,
+      "overlap_volume": 1.7250008583068848,
+      "position": [
+        560987.5625,
+        4100131.0,
+        14.0
+      ]
+    }
+  ],
+  "visualizations": []
+}

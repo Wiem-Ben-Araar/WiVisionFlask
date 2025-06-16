@@ -1,0 +1,4298 @@
+{
+  "session_id": "d5495d8c-1d40-453c-b197-2b00aa6aa926",
+  "status": "completed",
+  "clash_count": 195,
+  "clashes": [
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73CPHljjnP",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPQ",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.07213400467298925,
+      "position": [
+        560987.3941195374,
+        4100150.8666240526,
+        14.325000000000145
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPa",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4723981527,
+        4100150.5759743173,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "1_$04EAt9CCOw38pALaFQo",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4737068478,
+        4100150.5760166645,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "23HDvG$YzCTuZy6SYgAtzh",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4737068478,
+        4100150.5760166645,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3qnTi0qp5BfB_bMpudAGG8",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4737068478,
+        4100150.5760166645,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3jH3k2AZXFRRWF$VNPDVBG",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4737067583,
+        4100149.0378916645,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2JnhydoifD2Reb$981aNUc",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4737067583,
+        4100149.0378916645,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2HrzqRpsrDZfeG1OkhXr9w",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4737067583,
+        4100149.0378916645,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPh",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4710780778,
+        4100149.0378498835,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPg",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4697161638,
+        4100147.4509754684,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0iEvFWiJ5EFPKUejXSF_rF",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4737066659,
+        4100147.4510166645,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH0K",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKFG",
+        "name": "Radier:B\u00e9ton - 100 mm:273436",
+        "type": "IfcSlab",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560992.4255896097,
+        4100149.0259444267,
+        13.42499999999981
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "37a88e0CP8uf6R7z5_Ws$w",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055568373,
+        4100140.4510148703,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3vTq4oyz9Cq8dctWr9uySe",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055568373,
+        4100140.4510148703,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPF",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4048381398,
+        4100140.45097227,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "1TnhvAcHLESPcqyNpKEYSV",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055568373,
+        4100140.4510148703,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKOW",
+        "name": "Mur de base:Mur - Ext. 35cm:272876",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.04994184151291847,
+      "position": [
+        560991.8391299908,
+        4100134.766774081,
+        17.97500000000015
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0lsvFJ68b459r6om8B8DiM",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055578323,
+        4100157.552661945,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3KJNWU28j5ohrtqg2tufw0",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055578323,
+        4100157.552661945,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPs",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0499445857712999,
+      "position": [
+        560987.4055578988,
+        4100158.694735463,
+        14.350000000000144
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0n$4ViFYTAUxk_Fej0bNJW",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055578323,
+        4100157.552661945,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5IrjmmeDV",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3483277988,
+        4100158.452679728,
+        13.999999999999812
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzJ",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4100553918,
+        4100157.5526171066,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2TSHz9$xnFc9VPpPX8DXhX",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4737066659,
+        4100147.4510166645,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH0K",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPQ",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4545166781,
+        4100148.4163885056,
+        14.349999999999655
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0MuyIz0uj2U9cH4h8Q8Rau",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4737066659,
+        4100147.4510166645,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH0K",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3jH3k2AZXFRRWF$VNPDVBG",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4545166725,
+        4100148.3220446156,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH0K",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2JnhydoifD2Reb$981aNUc",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4545166725,
+        4100148.3220446156,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH0K",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2HrzqRpsrDZfeG1OkhXr9w",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4545166725,
+        4100148.3220446156,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH0K",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPh",
+        "name": "PVC Panneau Vitr\u00e9 - Traverse:0.9 x 2.2 m (0.8x2.15m):272807",
+        "type": "IfcDoor",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.5041948236,
+        4100148.321863464,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH0K",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPh",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.451887992,
+        4100148.322002835,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKQu",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.04994184151291847,
+      "position": [
+        560987.4055566938,
+        4100137.983879013,
+        15.875000000000146
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2OTH_nyrzAlxAuX8hDI7e0",
+        "name": "Mur de base:Mur - Ext. 2.5cm:389310",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.04994184151291847,
+      "position": [
+        560991.8328799861,
+        4100134.6855240813,
+        19.125
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjnM",
+        "name": "A-GEN-Aluminium Door Handle:-:514904",
+        "type": "IfcBuildingElementProxy",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme4_",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3175212366,
+        4100153.1661407426,
+        13.974999999999817
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0wq6J4nCf7DPqukRCeQmC9",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055577276,
+        4100155.7526619453,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "38ov4bmBz1UPCLk_NYnx4l",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055577276,
+        4100155.7526619453,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "21skZFsZz1IApFbKzw4Iqh",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055577276,
+        4100155.7526619453,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzI",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4085105662,
+        4100155.7526177694,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "1VO8wfK1DAMhsMfg18aEi9",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055576168,
+        4100153.8493713485,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzH",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4068770928,
+        4100153.8493278734,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "1qKY3eiPHDtBsZhRDl_b2H",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055576168,
+        4100153.8493713485,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0Oxs0hAr1CSRpf5Xz1hVyv",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055576168,
+        4100153.8493713485,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme4_",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3425211543,
+        4100151.749391651,
+        13.999999999999812
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73CPHljjnP",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme4_",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3310833334,
+        4100153.210425465,
+        13.97499999999981
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73CPHljjna",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5IrjmmeDV",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3426428442,
+        4100166.616836074,
+        13.97499999999981
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73CPHljjna",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPs",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.06062894850037992,
+      "position": [
+        560987.3998729441,
+        4100166.858891808,
+        14.325000000000145
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH3t",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKFG",
+        "name": "Radier:B\u00e9ton - 100 mm:273436",
+        "type": "IfcSlab",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560992.3019199222,
+        4100150.5760511355,
+        13.42499999999981
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHU_",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0Oxs0hAr1CSRpf5Xz1hVyv",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3334219586,
+        4100157.41027522,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHU_",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "1qKY3eiPHDtBsZhRDl_b2H",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3334219586,
+        4100157.41027522,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHU_",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOLzH",
+        "name": "PVC Panneau Vitr\u00e9 - Traverse:0.9 x 2.2 m (0.8x2.15m):274589",
+        "type": "IfcDoor",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3870482661,
+        4100157.4100923734,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHU_",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzH",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3347414345,
+        4100157.410231745,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHU_",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "1VO8wfK1DAMhsMfg18aEi9",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3334219586,
+        4100157.41027522,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH6k",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKQu",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3221566979,
+        4100128.6931441957,
+        14.349999999999655
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHU_",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPs",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3334222406,
+        4100162.2556393337,
+        14.349999999999655
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH3t",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPQ",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3308469907,
+        4100149.966495214,
+        14.349999999999655
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH3t",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPa",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3295383796,
+        4100151.4102339773,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH72",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKFG",
+        "name": "Radier:B\u00e9ton - 100 mm:273436",
+        "type": "IfcSlab",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560992.2992379332,
+        4100147.451052286,
+        13.42499999999981
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH72",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPQ",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3281650017,
+        4100146.841496365,
+        14.349999999999655
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0lsvFJ68b459r6om8B8DiM",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4737072377,
+        4100157.279307261,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3KJNWU28j5ohrtqg2tufw0",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4737072377,
+        4100157.279307261,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0n$4ViFYTAUxk_Fej0bNJW",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4737072377,
+        4100157.279307261,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5IrjmmeDV",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4164772043,
+        4100158.179325044,
+        13.42499999999981
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzJ",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0085878842510283,
+      "position": [
+        560951.4782047973,
+        4100157.2792624226,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0wq6J4nCf7DPqukRCeQmC9",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.473707133,
+        4100155.4793072613,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "38ov4bmBz1UPCLk_NYnx4l",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.473707133,
+        4100155.4793072613,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "21skZFsZz1IApFbKzw4Iqh",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.473707133,
+        4100155.4793072613,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzI",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.005498232902027667,
+      "position": [
+        560951.4766599716,
+        4100155.4792630854,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjn1",
+        "name": "A-DOR-Aluminium Double:1.6 x 2.2 m Type D 2:514895",
+        "type": "IfcDoor",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme5N",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.2741844254,
+        4100133.960191981,
+        13.99999999999981
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2OTH_nyrzAlxAuX8hDI7Yz",
+        "name": "Mur de base:Mur - Ext. 2.5cm:389635",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.07494534528814256,
+      "position": [
+        560991.839131738,
+        4100164.798024172,
+        19.125
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKOY",
+        "name": "Mur de base:Mur - Ext. 35cm:272878",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.04994532640557736,
+      "position": [
+        560991.8391317333,
+        4100164.716774172,
+        17.97500000000015
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH3t",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "1_$04EAt9CCOw38pALaFQo",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3308470747,
+        4100151.4102763245,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH3t",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3qnTi0qp5BfB_bMpudAGG8",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3308470747,
+        4100151.4102763245,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH3t",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "23HDvG$YzCTuZy6SYgAtzh",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3308470747,
+        4100151.4102763245,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH3t",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPa",
+        "name": "PVC Panneau Vitr\u00e9 - Traverse:0.9 x 2.2 m (0.8x2.15m):272808",
+        "type": "IfcDoor",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3818452111,
+        4100151.4100946058,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPQ",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.049943909398280084,
+      "position": [
+        560987.4055573584,
+        4100149.405590238,
+        14.350000000000144
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPa",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4042487473,
+        4100150.8493290013,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "1_$04EAt9CCOw38pALaFQo",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055574423,
+        4100150.8493713485,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "23HDvG$YzCTuZy6SYgAtzh",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055574423,
+        4100150.8493713485,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3qnTi0qp5BfB_bMpudAGG8",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055574423,
+        4100150.8493713485,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3jH3k2AZXFRRWF$VNPDVBG",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055573528,
+        4100149.3112463485,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2JnhydoifD2Reb$981aNUc",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055573528,
+        4100149.3112463485,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2HrzqRpsrDZfeG1OkhXr9w",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055573528,
+        4100149.3112463485,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPh",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4029286723,
+        4100149.3112045676,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPg",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4015667583,
+        4100147.7243301524,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0iEvFWiJ5EFPKUejXSF_rF",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055572605,
+        4100147.7243713485,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2TSHz9$xnFc9VPpPX8DXhX",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055572605,
+        4100147.7243713485,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0MuyIz0uj2U9cH4h8Q8Rau",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055572605,
+        4100147.7243713485,
+        14.000000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH72",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPg",
+        "name": "PVC Panneau Vitr\u00e9 - Traverse:0.9 x 2.2 m (0.8x2.15m):272806",
+        "type": "IfcDoor",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3764812332,
+        4100145.160096908,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH72",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPg",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3241744016,
+        4100145.160236279,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH72",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0iEvFWiJ5EFPKUejXSF_rF",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3281649039,
+        4100145.1602774756,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH72",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2TSHz9$xnFc9VPpPX8DXhX",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3281649039,
+        4100145.1602774756,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH72",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0MuyIz0uj2U9cH4h8Q8Rau",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3281649039,
+        4100145.1602774756,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjnb",
+        "name": "A-GEN-Aluminium Door Handle:-:514923",
+        "type": "IfcBuildingElementProxy",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5IrjmmeDV",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3233282713,
+        4100166.57255382,
+        13.974999999999817
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "1VO8wfK1DAMhsMfg18aEi9",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4737070224,
+        4100153.5760166645,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzH",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0022312861401587725,
+      "position": [
+        560951.4750264983,
+        4100153.5759731894,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "1qKY3eiPHDtBsZhRDl_b2H",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4737070224,
+        4100153.5760166645,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0Oxs0hAr1CSRpf5Xz1hVyv",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4737070224,
+        4100153.5760166645,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme4_",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4106705597,
+        4100151.476036967,
+        13.42499999999981
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKP0",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.04994333488866687,
+      "position": [
+        560987.4055570456,
+        4100144.030590238,
+        14.350000000000144
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHVO",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOLzI",
+        "name": "PVC Panneau Vitr\u00e9 - Traverse:0.9 x 2.2 m (0.8x2.15m):274590",
+        "type": "IfcDoor",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.5153151817,
+        4100161.216582098,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHVO",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzI",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.46300835,
+        4100161.2167214695,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHVO",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "21skZFsZz1IApFbKzw4Iqh",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4600555114,
+        4100161.216765646,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHVO",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "38ov4bmBz1UPCLk_NYnx4l",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4600555114,
+        4100161.216765646,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHVO",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0wq6J4nCf7DPqukRCeQmC9",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4600555114,
+        4100161.216765646,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH6k",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKFG",
+        "name": "Radier:B\u00e9ton - 100 mm:273436",
+        "type": "IfcSlab",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560992.293230278,
+        4100140.451054864,
+        13.42499999999981
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHVO",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPs",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4600556827,
+        4100164.1588391624,
+        14.349999999999655
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjm$",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme5N",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.343539681,
+        4100142.124391213,
+        13.999999999999812
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0lsvFJ68b459r6om8B8DiM",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4111799152,
+        4100157.279307034,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3KJNWU28j5ohrtqg2tufw0",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4111799152,
+        4100157.279307034,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0n$4ViFYTAUxk_Fej0bNJW",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4111799152,
+        4100157.279307034,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5IrjmmeDV",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.3539498816,
+        4100158.179324817,
+        14.059599999999811
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzJ",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0085878842510283,
+      "position": [
+        560960.4156774747,
+        4100157.2792621944,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0wq6J4nCf7DPqukRCeQmC9",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4111798104,
+        4100155.479307034,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "38ov4bmBz1UPCLk_NYnx4l",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4111798104,
+        4100155.479307034,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH3t",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPP",
+        "name": "Mur de base:Mur - Ext. 25cm:272789",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.08822461729869246,
+      "position": [
+        560988.7388262062,
+        4100151.7425702615,
+        14.324999999999655
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "21skZFsZz1IApFbKzw4Iqh",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4111798104,
+        4100155.479307034,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzI",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.005498232902027667,
+      "position": [
+        560960.4141326491,
+        4100155.4792628577,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "1VO8wfK1DAMhsMfg18aEi9",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4111796997,
+        4100153.576016437,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzH",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0022312861401587725,
+      "position": [
+        560960.4124991756,
+        4100153.5759729617,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "1qKY3eiPHDtBsZhRDl_b2H",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4111796997,
+        4100153.576016437,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0Oxs0hAr1CSRpf5Xz1hVyv",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4111796997,
+        4100153.576016437,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme4_",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.3481432372,
+        4100151.476036739,
+        14.059599999999811
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjna",
+        "name": "A-DOR-Aluminium Double:1.6 x 2.2 m Type D 2:514922",
+        "type": "IfcDoor",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5IrjmmeDV",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.2929860924,
+        4100166.6167822937,
+        13.99999999999981
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0lsvFJ68b459r6om8B8DiM",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055578164,
+        4100157.2793054674,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3KJNWU28j5ohrtqg2tufw0",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055578164,
+        4100157.2793054674,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPs",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.04994386143516749,
+      "position": [
+        560987.4055578829,
+        4100158.421378984,
+        15.875000000000146
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0n$4ViFYTAUxk_Fej0bNJW",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055578164,
+        4100157.2793054674,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5IrjmmeDV",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3483277829,
+        4100158.1793232504,
+        15.524999999999812
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzJ",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4100553759,
+        4100157.279260628,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH6k",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "37a88e0CP8uf6R7z5_Ws$w",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3221568414,
+        4100131.1602800535,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHMN",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKFG",
+        "name": "Radier:B\u00e9ton - 100 mm:273436",
+        "type": "IfcSlab",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560992.4326728994,
+        4100157.279249197,
+        13.42499999999981
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0wq6J4nCf7DPqukRCeQmC9",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055577116,
+        4100155.4793054676,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "38ov4bmBz1UPCLk_NYnx4l",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055577116,
+        4100155.4793054676,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "21skZFsZz1IApFbKzw4Iqh",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055577116,
+        4100155.4793054676,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzI",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4085105502,
+        4100155.479261291,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "1VO8wfK1DAMhsMfg18aEi9",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055576009,
+        4100153.5760148703,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzH",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4068770768,
+        4100153.5759713952,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "1qKY3eiPHDtBsZhRDl_b2H",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055576009,
+        4100153.5760148703,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0Oxs0hAr1CSRpf5Xz1hVyv",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055576009,
+        4100153.5760148703,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme4_",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3425211383,
+        4100151.4760351726,
+        15.524999999999812
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH6k",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPF",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3214381438,
+        4100131.160237453,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH6k",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "1TnhvAcHLESPcqyNpKEYSV",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3221568414,
+        4100131.1602800535,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH6k",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPF",
+        "name": "PVC Panneau Vitr\u00e9 - Traverse:0.9 x 2.2 m (0.8x2.15m):272771",
+        "type": "IfcDoor",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3737449754,
+        4100131.1600980815,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvH6k",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3vTq4oyz9Cq8dctWr9uySe",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3221568414,
+        4100131.1602800535,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme5N",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4116890865,
+        4100141.851036529,
+        13.42499999999981
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "37a88e0CP8uf6R7z5_Ws$w",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4737062587,
+        4100140.4510166645,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3vTq4oyz9Cq8dctWr9uySe",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4737062587,
+        4100140.4510166645,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPF",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4729875613,
+        4100140.450974064,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2JbQ",
+        "name": "Sol:DALLE EN BETON - 100 mm:272979",
+        "type": "IfcSlab",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "1TnhvAcHLESPcqyNpKEYSV",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560951.4737062587,
+        4100140.4510166645,
+        13.425000000000306
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73CPHljjn1",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme5N",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3238411772,
+        4100133.9602457616,
+        13.97499999999981
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73CPHljjn1",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKP0",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.08865479589439929,
+      "position": [
+        560987.3858585417,
+        4100135.8664447865,
+        14.325000000000145
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPa",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4098708301,
+        4100150.5759740896,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "1_$04EAt9CCOw38pALaFQo",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4111795252,
+        4100150.576016437,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "23HDvG$YzCTuZy6SYgAtzh",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4111795252,
+        4100150.576016437,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3qnTi0qp5BfB_bMpudAGG8",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4111795252,
+        4100150.576016437,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3jH3k2AZXFRRWF$VNPDVBG",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4111794357,
+        4100149.037891437,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2JnhydoifD2Reb$981aNUc",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4111794357,
+        4100149.037891437,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2HrzqRpsrDZfeG1OkhXr9w",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4111794357,
+        4100149.037891437,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPh",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4085507551,
+        4100149.0378496563,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPg",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4071888411,
+        4100147.45097524,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0iEvFWiJ5EFPKUejXSF_rF",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4111793434,
+        4100147.451016437,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2TSHz9$xnFc9VPpPX8DXhX",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4111793434,
+        4100147.451016437,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0MuyIz0uj2U9cH4h8Q8Rau",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4111793434,
+        4100147.451016437,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjnP",
+        "name": "A-DOR-Aluminium Double:1.6 x 2.2 m Type D 2:514903",
+        "type": "IfcDoor",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme4_",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.2814265816,
+        4100153.2103716843,
+        13.99999999999981
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHMN",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0lsvFJ68b459r6om8B8DiM",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4616004418,
+        4100164.8167649824,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHMN",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOLzJ",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4660980013,
+        4100164.816720144,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHMN",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0n$4ViFYTAUxk_Fej0bNJW",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4616004418,
+        4100164.8167649824,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHMN",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOLzJ",
+        "name": "PVC Panneau Vitr\u00e9 - Traverse:0.9 x 2.2 m (0.8x2.15m):274591",
+        "type": "IfcDoor",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.5184048329,
+        4100164.8165807724,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHMN",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPs",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4616005083,
+        4100165.9588385,
+        14.349999999999655
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHMN",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3KJNWU28j5ohrtqg2tufw0",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4616004418,
+        4100164.8167649824,
+        13.999999999999815
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "0YWdMojXnAtB73COTljjnU",
+        "name": "A-GEN-Aluminium Door Handle:-:514896",
+        "type": "IfcBuildingElementProxy",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme5N",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.3185392034,
+        4100133.9159574946,
+        13.974999999999817
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2OTH_nyrzAlxAuX8hDI7it",
+        "name": "Mur de base:Mur - Ext. 2.5cm:389513",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.049941843026317656,
+      "position": [
+        560987.3493073782,
+        4100149.7480243137,
+        19.125
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKOX",
+        "name": "Mur de base:Mur - Ext. 25cm:272877",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.04994186188559979,
+      "position": [
+        560987.4055573778,
+        4100149.741774312,
+        17.97500000000015
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKPQ",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.04994318506214768,
+      "position": [
+        560987.4055573423,
+        4100149.1322337603,
+        15.875000000000146
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPa",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4042487312,
+        4100150.575972523,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "1_$04EAt9CCOw38pALaFQo",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055574264,
+        4100150.5760148703,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "23HDvG$YzCTuZy6SYgAtzh",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055574264,
+        4100150.5760148703,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3qnTi0qp5BfB_bMpudAGG8",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055574264,
+        4100150.5760148703,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3jH3k2AZXFRRWF$VNPDVBG",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055573369,
+        4100149.0378898703,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2JnhydoifD2Reb$981aNUc",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055573369,
+        4100149.0378898703,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2HrzqRpsrDZfeG1OkhXr9w",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055573369,
+        4100149.0378898703,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPh",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4029286563,
+        4100149.03784809,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPg",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4015667423,
+        4100147.4509736737,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0iEvFWiJ5EFPKUejXSF_rF",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055572446,
+        4100147.4510148703,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2TSHz9$xnFc9VPpPX8DXhX",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055572446,
+        4100147.4510148703,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "0MuyIz0uj2U9cH4h8Q8Rau",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.4055572446,
+        4100147.4510148703,
+        15.525000000000308
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme5N",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.3491617639,
+        4100141.851036302,
+        14.059599999999811
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "37a88e0CP8uf6R7z5_Ws$w",
+        "name": "Mur de base:Mur - Ext. 25cm:272826",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4111789361,
+        4100140.451016437,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3vTq4oyz9Cq8dctWr9uySe",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4111789361,
+        4100140.451016437,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3pqlxOKPF",
+        "name": "Mur de base:Mur - Ext. 25cm:272756",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4104602386,
+        4100140.4509738367,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "3sxUbGp456Pxj16psc6eFj",
+        "name": "3",
+        "type": "IfcSpace",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "1TnhvAcHLESPcqyNpKEYSV",
+        "name": "Mur de base:Mur - Ext. 25cm:272790",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560960.4111789361,
+        4100140.451016437,
+        14.059600000000305
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHU_",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKFG",
+        "name": "Radier:B\u00e9ton - 100 mm:273436",
+        "type": "IfcSlab",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560992.3044946316,
+        4100153.5760500305,
+        13.42499999999981
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1nmFkcG6z7Z9N_nWbSvHVO",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcOpeningElement",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKFG",
+        "name": "Radier:B\u00e9ton - 100 mm:273436",
+        "type": "IfcSlab",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560992.4311280737,
+        4100155.479249859,
+        13.42499999999981
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "3TKiADw3X8rxC3prZxOKP0",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcWallStandardCase",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.04994261055253446,
+      "position": [
+        560987.4055570296,
+        4100143.7572337603,
+        15.875000000000146
+      ]
+    },
+    {
+      "element_a": {
+        "guid": "1xxuC9bCT2iAOKbhuN2Ja4",
+        "name": "Mur de base:Mur - Ext. 25cm:272909",
+        "type": "IfcWallStandardCase",
+        "model": "model1.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model1.ifc"
+      },
+      "element_b": {
+        "guid": "2lEC1dNxT7swT5Irjmme5N",
+        "name": "Mur de base:Mur - Ext. 25cm:272780",
+        "type": "IfcOpeningElement",
+        "model": "model4.ifc",
+        "path": "C:\\Users\\wiemb\\Desktop\\flask-ifc-clashdetection\\app\\uploads\\d5495d8c-1d40-453c-b197-2b00aa6aa926\\model4.ifc"
+      },
+      "distance": 0.0,
+      "position": [
+        560987.343539665,
+        4100141.8510347353,
+        15.524999999999812
+      ]
+    }
+  ],
+  "visualizations": []
+}
