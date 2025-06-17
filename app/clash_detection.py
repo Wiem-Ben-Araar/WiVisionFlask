@@ -184,53 +184,49 @@ class FastClashDetector:
         print(f"Détection terminée. {len(clashes)} clashs trouvés en {t_end - t_start:.2f} secondes")
         return clashes
 
-    def detect_intra_model_clashes(self, model_info, auto_adjust_tolerance=True):
-        """Détecte les clashs au sein d'un même modèle"""
-        if not model_info or len(model_info['elements']) < 2:
-            print("Le modèle ne contient pas assez d'éléments pour une détection intra-modèle")
-            return []
+    def detect_intra_model_clashes(self, model_info):
+    elements = model_info['elements']
+    
+    # Optimisation: Filtrer les petits éléments non pertinents
+    relevant_elements = [
+        elem for elem in elements 
+        if elem['volume'] > 0.001  # Ignorer les éléments très petits
+    ]
+    
+    # Utiliser un KDTree pour une recherche spatiale rapide
+    from scipy.spatial import KDTree
+    positions = np.array([e['center'] for e in relevant_elements])
+    kdtree = KDTree(positions)
+    
+    clashes = []
+    processed_pairs = set()
+    
+    # Réduire la tolérance initiale pour moins de paires
+    search_radius = self.tolerance * 5
+    
+    for i, elem_a in enumerate(relevant_elements):
+        # Trouver les voisins proches
+        neighbors = kdtree.query_ball_point(elem_a['center'], search_radius)
         
-        print(f"Début de la détection intra-modèle: {model_info['model_name']}")
-        t_start = time.time()
-        
-        if auto_adjust_tolerance:
-            self._adjust_tolerance()
-        
-        elements = model_info['elements']
-        clashes = []
-        
-        # Créer une grille spatiale pour optimisation
-        cell_size = max(1.0, self.tolerance * 10)  # Taille de cellule adaptative
-        grid = SpatialGrid(cell_size)
-        for elem in elements:
-            grid.insert(elem)
-        
-        # Pour chaque élément, vérifier les clashs avec les éléments voisins
-        for i, elem_a in enumerate(elements):
-            if self.debug_mode and i % 100 == 0:
-                print(f"Traitement élément {i+1}/{len(elements)}")
+        for idx in neighbors:
+            if i == idx:
+                continue
+                
+            elem_b = relevant_elements[idx]
+            pair_id = tuple(sorted((elem_a['guid'], elem_b['guid'])))
             
-            # Récupérer les éléments voisins via la grille
-            neighbors = self._get_neighbors(grid, elem_a)
+            if pair_id in processed_pairs:
+                continue
+                
+            processed_pairs.add(pair_id)
             
-            for elem_b in neighbors:
-                # Éviter les auto-collisions et les doublons (elem_a < elem_b)
-                if elem_a['guid'] >= elem_b['guid']:
-                    continue
-                    
-                # Vérifier la proximité rapide
-                if not self._quick_bbox_proximity(elem_a, elem_b, self.tolerance * 2):
-                    continue
-                    
-                # Vérification détaillée
+            # Vérification rapide des boîtes englobantes
+            if self._quick_bbox_proximity(elem_a, elem_b, self.tolerance * 3):
                 clash = self._check_detailed_clash(elem_a, elem_b, self.tolerance)
                 if clash:
                     clashes.append(clash)
-        
-        t_end = time.time()
-        print(f"Détection intra-modèle terminée. {len(clashes)} clashs trouvés en {t_end - t_start:.2f} secondes")
-        return clashes
-
+    
+    return clashes
     def _get_neighbors(self, grid, element):
         """Récupère les éléments voisins d'un élément donné via la grille spatiale"""
         neighbors = set()

@@ -684,7 +684,20 @@ def process_intra_clash_detection(app, session_id, path, tolerance, use_ai):
             
             print(f"Rapport sauvegardé: {report_path}")
             print(f"=== Traitement intra-modèle terminé pour {session_id} ===\n")
-
+# Écrire un fichier de statut immédiatement après le traitement
+            status_path = os.path.join(report_dir, 'status.json')
+            with open(status_path, 'w') as f:
+                json.dump({
+                    'session_id': session_id,
+                    'status': 'completed',
+                    'message': 'Traitement terminé'
+                }, f)
+            
+            # Puis écrire le rapport complet
+            with open(report_path, 'w') as f:
+                json.dump({
+                    # ... données du rapport
+                }, f, indent=2)
         except Exception as e:
             import traceback
             error_msg = f"ERREUR: {str(e)}\n{traceback.format_exc()}"
