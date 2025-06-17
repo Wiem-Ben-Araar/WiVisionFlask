@@ -185,48 +185,49 @@ class FastClashDetector:
         return clashes
 
     def detect_intra_model_clashes(self, model_info):
-    elements = model_info['elements']
-    
-    # Optimisation: Filtrer les petits éléments non pertinents
-    relevant_elements = [
-        elem for elem in elements 
-        if elem['volume'] > 0.001  # Ignorer les éléments très petits
-    ]
-    
-    # Utiliser un KDTree pour une recherche spatiale rapide
-    from scipy.spatial import KDTree
-    positions = np.array([e['center'] for e in relevant_elements])
-    kdtree = KDTree(positions)
-    
-    clashes = []
-    processed_pairs = set()
-    
-    # Réduire la tolérance initiale pour moins de paires
-    search_radius = self.tolerance * 5
-    
-    for i, elem_a in enumerate(relevant_elements):
-        # Trouver les voisins proches
-        neighbors = kdtree.query_ball_point(elem_a['center'], search_radius)
+        """Détecte les clashs au sein d'un même modèle avec optimisation KDTree"""
+        elements = model_info['elements']
         
-        for idx in neighbors:
-            if i == idx:
-                continue
-                
-            elem_b = relevant_elements[idx]
-            pair_id = tuple(sorted((elem_a['guid'], elem_b['guid'])))
+        # Optimisation: Filtrer les petits éléments non pertinents
+        relevant_elements = [
+            elem for elem in elements 
+            if elem['volume'] > 0.001  # Ignorer les éléments très petits
+        ]
+        
+        # Utiliser un KDTree pour une recherche spatiale rapide
+        from scipy.spatial import KDTree
+        positions = np.array([e['center'] for e in relevant_elements])
+        kdtree = KDTree(positions)
+        
+        clashes = []
+        processed_pairs = set()
+        
+        # Réduire la tolérance initiale pour moins de paires
+        search_radius = self.tolerance * 5
+        
+        for i, elem_a in enumerate(relevant_elements):
+            # Trouver les voisins proches
+            neighbors = kdtree.query_ball_point(elem_a['center'], search_radius)
             
-            if pair_id in processed_pairs:
-                continue
+            for idx in neighbors:
+                if i == idx:
+                    continue
+                    
+                elem_b = relevant_elements[idx]
+                pair_id = tuple(sorted((elem_a['guid'], elem_b['guid'])))
                 
-            processed_pairs.add(pair_id)
-            
-            # Vérification rapide des boîtes englobantes
-            if self._quick_bbox_proximity(elem_a, elem_b, self.tolerance * 3):
-                clash = self._check_detailed_clash(elem_a, elem_b, self.tolerance)
-                if clash:
-                    clashes.append(clash)
-    
-    return clashes
+                if pair_id in processed_pairs:
+                    continue
+                    
+                processed_pairs.add(pair_id)
+                
+                # Vérification rapide des boîtes englobantes
+                if self._quick_bbox_proximity(elem_a, elem_b, self.tolerance * 3):
+                    clash = self._check_detailed_clash(elem_a, elem_b, self.tolerance)
+                    if clash:
+                        clashes.append(clash)
+        
+        return clashes
     def _get_neighbors(self, grid, element):
         """Récupère les éléments voisins d'un élément donné via la grille spatiale"""
         neighbors = set()
